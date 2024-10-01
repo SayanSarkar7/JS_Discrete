@@ -5,7 +5,7 @@ import axios from 'axios';
 const UseEffect = () => {
     useEffect(() => {
       
-        axios
+        // axios
       
     }, [])
     
