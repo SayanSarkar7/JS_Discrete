@@ -5,10 +5,17 @@ const Topic = () => {
         resolve("promise fulfilled");
         reject("some technical error")
     });
+    // a.then((params)=>{
+    //     console.log(params, "aaa");
+        
+    // },(error)=>{
+    //     console.log(error);
+        
+    // })
     a.then((params)=>{
         console.log(params, "aaa");
         
-    },(error)=>{
+    }).catch((error)=>{
         console.log(error);
         
     })
