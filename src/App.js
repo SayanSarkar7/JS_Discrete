@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       {/* <Home/> */}
       {/* <Input/> */}
-      {/* <UseEffect/> */}
-      <Topic />
+      <UseEffect/>
+      {/* <Topic /> */}
     </div>
   );
 }

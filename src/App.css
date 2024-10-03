@@ -1,6 +1,56 @@
 *{
   margin: 0;
   padding: 0%;
-  font-size: 2rem;
   font-family: sans-serif;
+}
+.coin{
+  padding: 2rem;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(224, 208, 208);
+  border-radius: 10px;
+  gap: 10px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coin>img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  /* to get fit object,i.e, all egal size img */
+}
+.coin>p{
+  text-transform: uppercase;
+}
+
+.home{
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  justify-content: center;
+}
+.loading > div{
+  width: 300px;
+  height: 300px;
+  border-bottom: 4px solid rgb(44, 41, 41);
+  border-radius: 50%;
+  animation: rotation 1s infinite ease-in;
+}
+@keyframes rotation {
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+.loading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 80vh;
+  width: 100%;
+  /* border: 2px solid red; */
 }
